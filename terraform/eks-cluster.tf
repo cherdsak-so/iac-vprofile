@@ -11,7 +11,7 @@ module "eks" {
 
   eks_managed_node_group_defaults = { 
     ami_type = "AL2023_x86_64_STANDARD"
-  }
+   }
 
   eks_managed_node_groups = {
     one = {
